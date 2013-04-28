@@ -37,7 +37,7 @@
                         <sections>
                             <tableViewSection headerTitle="Question" id="55G-te-aI1">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="questioncell" id="0fl-IJ-5mS">
+                                    <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="questioncell" id="0fl-IJ-5mS">
                                         <rect key="frame" x="0.0" y="46" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -323,11 +323,11 @@
             </objects>
             <point key="canvasLocation" x="94" y="714"/>
         </scene>
-        <!--Table View Controller - FAQs-->
+        <!--FaqTVC - FAQs-->
         <scene sceneID="yrb-Dq-7fx">
             <objects>
-                <tableViewController id="bEl-9E-aOP" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="hPe-4E-7OX">
+                <tableViewController id="bEl-9E-aOP" customClass="FaqTVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="hPe-4E-7OX">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -393,32 +393,53 @@
                     <navigationItem key="navigationItem" title="FAQs" id="eMQ-bb-855"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <segue destination="Gql-d6-h91" kind="push" id="bHT-4N-pvs"/>
+                        <outlet property="cell1" destination="ZEZ-fA-hmS" id="hwH-e7-GKt"/>
+                        <outlet property="cell2" destination="cSH-sO-Ud0" id="MPa-hy-YXG"/>
+                        <outlet property="cell3" destination="l2e-lb-ogO" id="92n-iu-6g0"/>
+                        <outlet property="cell4" destination="8at-Mx-Ml2" id="B5C-2W-7e5"/>
+                        <segue destination="Gql-d6-h91" kind="push" identifier="sequeToDetails" id="bHT-4N-pvs"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GAV-Rf-8IB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="620" y="1319"/>
         </scene>
-        <!--Table View Controller - Info-->
+        <!--Faq DetailsTVC - Info-->
         <scene sceneID="yJO-ZM-FXs">
             <objects>
-                <tableViewController id="Gql-d6-h91" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="NEh-OK-5af">
+                <tableViewController id="Gql-d6-h91" customClass="faqDetailsTVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="NEh-OK-5af">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="hZt-1Z-04r">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="DWN-uY-Fnc">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="hZt-1Z-04r">
+                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="LTm-9A-72n">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="277" id="76U-3S-go6">
+                                        <rect key="frame" x="0.0" y="76" width="320" height="279"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="300" height="276"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="Gql-d6-h91" id="jfh-lb-2Bx"/>
                             <outlet property="delegate" destination="Gql-d6-h91" id="XAb-6b-dPP"/>
@@ -426,6 +447,10 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Info" id="2ch-e3-cb4"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="faqDetail" destination="76U-3S-go6" id="0NT-p4-77W"/>
+                        <outlet property="faqlabel" destination="hZt-1Z-04r" id="fuD-U4-J4u"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rzV-Jg-q6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -475,38 +500,6 @@
         <image name="YesButton.png" width="114" height="72"/>
         <image name="visa.png" width="176" height="164"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="educationTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/educationTVC.h"/>
-            <relationships>
-                <relationship kind="action" name="factButton:"/>
-                <relationship kind="outlet" name="factShow" candidateClass="UITableViewCell"/>
-            </relationships>
-        </class>
-        <class className="findTheMistakeVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/findTheMistakeVC.h"/>
-            <relationships>
-                <relationship kind="action" name="noButton:"/>
-                <relationship kind="action" name="yesButton:"/>
-                <relationship kind="outlet" name="mistakeImageView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="triviaTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/triviaTVC.h"/>
-            <relationships>
-                <relationship kind="action" name="Pass:"/>
-                <relationship kind="outlet" name="answer1" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="answer2" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="answer3" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="answer4" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="question" candidateClass="UITableViewCell"/>
-                <relationship kind="outlet" name="triviaTable" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

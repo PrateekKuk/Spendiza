@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-
 @interface Faq : NSManagedObject
+
 
 @property (nonatomic, retain) NSString  * faqDescript;
 @property (nonatomic, retain) NSString * faqLabel;
+
+
 
 @end

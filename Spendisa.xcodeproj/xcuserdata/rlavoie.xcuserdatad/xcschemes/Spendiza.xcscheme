@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFEEB232172C9C20004285DA"
                BuildableName = "Spendiza.app"
-               BlueprintName = "Spendiza"
-               ReferencedContainer = "container:Spendiza.xcodeproj">
+               BlueprintName = "Spendisa"
+               ReferencedContainer = "container:Spendisa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFEEB232172C9C20004285DA"
             BuildableName = "Spendiza.app"
-            BlueprintName = "Spendiza"
-            ReferencedContainer = "container:Spendiza.xcodeproj">
+            BlueprintName = "Spendisa"
+            ReferencedContainer = "container:Spendisa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFEEB232172C9C20004285DA"
             BuildableName = "Spendiza.app"
-            BlueprintName = "Spendiza"
-            ReferencedContainer = "container:Spendiza.xcodeproj">
+            BlueprintName = "Spendisa"
+            ReferencedContainer = "container:Spendisa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFEEB232172C9C20004285DA"
             BuildableName = "Spendiza.app"
-            BlueprintName = "Spendiza"
-            ReferencedContainer = "container:Spendiza.xcodeproj">
+            BlueprintName = "Spendisa"
+            ReferencedContainer = "container:Spendisa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

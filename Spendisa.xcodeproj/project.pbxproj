@@ -15,6 +15,9 @@
 		0B65AB55172D16100033EA27 /* Faq.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB54172D16100033EA27 /* Faq.m */; };
 		0B65AB58172D161E0033EA27 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB57172D161E0033EA27 /* Image.m */; };
 		0B65AB5A172D16E80033EA27 /* image03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B65AB59172D16E80033EA27 /* image03.png */; };
+		0B65AB5D172D245C0033EA27 /* FaqTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB5C172D245B0033EA27 /* FaqTVC.m */; };
+		0B65AB60172D27980033EA27 /* faqDetailsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB5F172D27980033EA27 /* faqDetailsTVC.m */; };
+		0B850F73172D2D3200AA9816 /* d41d8cd98f00b204e9800998ecf8427e.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B850F72172D2D3200AA9816 /* d41d8cd98f00b204e9800998ecf8427e.png */; };
 		DFEEB237172C9C20004285DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB236172C9C20004285DA /* UIKit.framework */; };
 		DFEEB239172C9C20004285DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB238172C9C20004285DA /* Foundation.framework */; };
 		DFEEB23B172C9C20004285DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB23A172C9C20004285DA /* CoreGraphics.framework */; };
@@ -50,15 +53,21 @@
 		0B65AB56172D161E0033EA27 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		0B65AB57172D161E0033EA27 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		0B65AB59172D16E80033EA27 /* image03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image03.png; sourceTree = "<group>"; };
-		DFEEB233172C9C20004285DA /* Spendiza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendiza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B65AB5B172D245B0033EA27 /* FaqTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaqTVC.h; sourceTree = "<group>"; };
+		0B65AB5C172D245B0033EA27 /* FaqTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaqTVC.m; sourceTree = "<group>"; };
+		0B65AB5E172D27980033EA27 /* faqDetailsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faqDetailsTVC.h; sourceTree = "<group>"; };
+		0B65AB5F172D27980033EA27 /* faqDetailsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = faqDetailsTVC.m; sourceTree = "<group>"; };
+		0B850F72172D2D3200AA9816 /* d41d8cd98f00b204e9800998ecf8427e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d41d8cd98f00b204e9800998ecf8427e.png; sourceTree = "<group>"; };
+		0B850F74172D308500AA9816 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DFEEB233172C9C20004285DA /* Spendisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEB236172C9C20004285DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFEEB238172C9C20004285DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFEEB23A172C9C20004285DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DFEEB23C172C9C20004285DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		DFEEB240172C9C20004285DA /* Spendiza-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spendiza-Info.plist"; sourceTree = "<group>"; };
+		DFEEB240172C9C20004285DA /* Spendisa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spendisa-Info.plist"; sourceTree = "<group>"; };
 		DFEEB242172C9C20004285DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFEEB244172C9C20004285DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFEEB246172C9C20004285DA /* Spendiza-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spendiza-Prefix.pch"; sourceTree = "<group>"; };
+		DFEEB246172C9C20004285DA /* Spendisa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spendisa-Prefix.pch"; sourceTree = "<group>"; };
 		DFEEB247172C9C20004285DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFEEB248172C9C20004285DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFEEB24A172C9C20004285DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -99,6 +108,8 @@
 		DFEEB22A172C9C20004285DA = {
 			isa = PBXGroup;
 			children = (
+				0B850F74172D308500AA9816 /* Default@2x.png */,
+				0B850F72172D2D3200AA9816 /* d41d8cd98f00b204e9800998ecf8427e.png */,
 				DFEEB23E172C9C20004285DA /* Spendiza */,
 				DFEEB235172C9C20004285DA /* Frameworks */,
 				DFEEB234172C9C20004285DA /* Products */,
@@ -108,7 +119,7 @@
 		DFEEB234172C9C20004285DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFEEB233172C9C20004285DA /* Spendiza.app */,
+				DFEEB233172C9C20004285DA /* Spendisa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +158,10 @@
 				0B65AB39172CAF490033EA27 /* Trivia.h */,
 				0B65AB3A172CAF490033EA27 /* Trivia.m */,
 				DFEEB23F172C9C20004285DA /* Supporting Files */,
+				0B65AB5B172D245B0033EA27 /* FaqTVC.h */,
+				0B65AB5C172D245B0033EA27 /* FaqTVC.m */,
+				0B65AB5E172D27980033EA27 /* faqDetailsTVC.h */,
+				0B65AB5F172D27980033EA27 /* faqDetailsTVC.m */,
 			);
 			path = Spendiza;
 			sourceTree = "<group>";
@@ -163,10 +178,10 @@
 				0B65AB46172CC2450033EA27 /* redButton.png */,
 				0B65AB44172CB8890033EA27 /* image01.png */,
 				0B65AB42172CB8780033EA27 /* image02.png */,
-				DFEEB240172C9C20004285DA /* Spendiza-Info.plist */,
+				DFEEB240172C9C20004285DA /* Spendisa-Info.plist */,
 				DFEEB241172C9C20004285DA /* InfoPlist.strings */,
 				DFEEB244172C9C20004285DA /* main.m */,
-				DFEEB246172C9C20004285DA /* Spendiza-Prefix.pch */,
+				DFEEB246172C9C20004285DA /* Spendisa-Prefix.pch */,
 				DFEEB24A172C9C20004285DA /* Default.png */,
 				DFEEB24C172C9C20004285DA /* Default@2x.png */,
 				DFEEB24E172C9C20004285DA /* Default-568h@2x.png */,
@@ -177,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFEEB232172C9C20004285DA /* Spendiza */ = {
+		DFEEB232172C9C20004285DA /* Spendisa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFEEB255172C9C20004285DA /* Build configuration list for PBXNativeTarget "Spendiza" */;
+			buildConfigurationList = DFEEB255172C9C20004285DA /* Build configuration list for PBXNativeTarget "Spendisa" */;
 			buildPhases = (
 				DFEEB22F172C9C20004285DA /* Sources */,
 				DFEEB230172C9C20004285DA /* Frameworks */,
@@ -189,9 +204,9 @@
 			);
 			dependencies = (
 			);
-			name = Spendiza;
+			name = Spendisa;
 			productName = Spendiza;
-			productReference = DFEEB233172C9C20004285DA /* Spendiza.app */;
+			productReference = DFEEB233172C9C20004285DA /* Spendisa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +218,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Prateek Kukreja";
 			};
-			buildConfigurationList = DFEEB22E172C9C20004285DA /* Build configuration list for PBXProject "Spendiza" */;
+			buildConfigurationList = DFEEB22E172C9C20004285DA /* Build configuration list for PBXProject "Spendisa" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,7 +230,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFEEB232172C9C20004285DA /* Spendiza */,
+				DFEEB232172C9C20004285DA /* Spendisa */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +253,7 @@
 				DFEEB280172D1175004285DA /* YesButton.png in Resources */,
 				DFEEB282172D1180004285DA /* NoButton.png in Resources */,
 				0B65AB5A172D16E80033EA27 /* image03.png in Resources */,
+				0B850F73172D2D3200AA9816 /* d41d8cd98f00b204e9800998ecf8427e.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +274,8 @@
 				DFEEB279172CDEEC004285DA /* educationTVC.m in Sources */,
 				0B65AB55172D16100033EA27 /* Faq.m in Sources */,
 				0B65AB58172D161E0033EA27 /* Image.m in Sources */,
+				0B65AB5D172D245C0033EA27 /* FaqTVC.m in Sources */,
+				0B65AB60172D27980033EA27 /* faqDetailsTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,9 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spendiza/Spendiza-Prefix.pch";
-				INFOPLIST_FILE = "Spendiza/Spendiza-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Spendiza/Spendisa-Prefix.pch";
+				INFOPLIST_FILE = "Spendiza/Spendisa-Info.plist";
+				PRODUCT_NAME = Spendisa;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -348,9 +366,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spendiza/Spendiza-Prefix.pch";
-				INFOPLIST_FILE = "Spendiza/Spendiza-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Spendiza/Spendisa-Prefix.pch";
+				INFOPLIST_FILE = "Spendiza/Spendisa-Info.plist";
+				PRODUCT_NAME = Spendisa;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -358,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFEEB22E172C9C20004285DA /* Build configuration list for PBXProject "Spendiza" */ = {
+		DFEEB22E172C9C20004285DA /* Build configuration list for PBXProject "Spendisa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFEEB253172C9C20004285DA /* Debug */,
@@ -367,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFEEB255172C9C20004285DA /* Build configuration list for PBXNativeTarget "Spendiza" */ = {
+		DFEEB255172C9C20004285DA /* Build configuration list for PBXNativeTarget "Spendisa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFEEB256172C9C20004285DA /* Debug */,

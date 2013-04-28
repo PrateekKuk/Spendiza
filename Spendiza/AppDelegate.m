@@ -19,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   // if ([self managedObjectContext] == nil)
    // [self create];
     return YES;
 }
