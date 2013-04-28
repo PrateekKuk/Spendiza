@@ -10,7 +10,7 @@
 #import "Facts.h"
 #import "Image.h"
 #import "Trivia.h"
-
+#import "Faq.h"
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -194,9 +194,29 @@
     Image *image = [NSEntityDescription insertNewObjectForEntityForName:@"Image" inManagedObjectContext:context];
     //Image Entity
     Image *image2 = [NSEntityDescription insertNewObjectForEntityForName:@"Image" inManagedObjectContext:context];
-    image.file = @"image01.png";
-    image2.file = @"image02.png";
+    Image *image3 = [NSEntityDescription insertNewObjectForEntityForName:@"Image" inManagedObjectContext:context];
     
+    image.file = @"image01.png";
+    image.right = [NSNumber numberWithBool:NO];
+    image2.file = @"image02.png";
+    image2.right = [NSNumber numberWithBool:NO];
+    image3.file = @"image03.png";
+    image3.right = [NSNumber numberWithBool:YES];
+    
+    Faq *faq1 = [NSEntityDescription insertNewObjectForEntityForName:@"Faq" inManagedObjectContext:context];
+    Faq *faq2 = [NSEntityDescription insertNewObjectForEntityForName:@"Faq" inManagedObjectContext:context];
+    Faq *faq3 = [NSEntityDescription insertNewObjectForEntityForName:@"Faq" inManagedObjectContext:context];
+    Faq *faq4 = [NSEntityDescription insertNewObjectForEntityForName:@"Faq" inManagedObjectContext:context];
+    
+    
+    faq1.faqLabel = @"I Lost my card";
+    faq1.faqDescript = @"Contact Visa NOW! Although you have Zero Liability, it will make everything easier if you contact us right away. See http://usa.visa.com/personal/security/get-help-now.html";
+    faq2.faqLabel = @"I think my ID is compromised";
+    faq2.faqDescript = @"You should take action now! The government and Visa both offer many options as to what you may do. You should ask for information regarding your credit scores to verify that they are correct. If you suspect tax fraud you should contact the IRS by completing and IRS Identity Theft Affidavit";
+    faq3.faqLabel = @"Phishing Information";
+    faq3.faqDescript = @"Phishing can take place through text, email, phone, and websites. If you have questions there are many resourses online including http://www.fbi.gov/scams-safety/ and www.staysafeonline.org.";
+    faq4.faqLabel = @"More information";
+    faq4.faqDescript = @"Please see the resources on Visa's website, starting with www.visasecuritysense,com. ";
     // Save everything
     NSError *error = nil;
     if ([context save:&error]) {

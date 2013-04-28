@@ -1,5 +1,5 @@
 //
-//  Image.h
+//  Faq.h
 //  Spendiza
 //
 //  Created by Robert Lavoie on 4/28/13.
@@ -10,9 +10,9 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Image : NSManagedObject
+@interface Faq : NSManagedObject
 
-@property (nonatomic, retain) NSString * file;
-@property (nonatomic, retain) NSNumber * right;
+@property (nonatomic, retain) NSString  * faqDescript;
+@property (nonatomic, retain) NSString * faqLabel;
 
 @end

@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0B65AB3B172CAF490033EA27 /* Trivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB3A172CAF490033EA27 /* Trivia.m */; };
-		0B65AB3E172CAF8E0033EA27 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB3D172CAF8E0033EA27 /* Image.m */; };
 		0B65AB41172CAFA10033EA27 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB40172CAFA00033EA27 /* Facts.m */; };
 		0B65AB43172CB8780033EA27 /* image02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B65AB42172CB8780033EA27 /* image02.png */; };
 		0B65AB45172CB8890033EA27 /* image01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B65AB44172CB8890033EA27 /* image01.png */; };
 		0B65AB47172CC2450033EA27 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B65AB46172CC2450033EA27 /* redButton.png */; };
+		0B65AB55172D16100033EA27 /* Faq.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB54172D16100033EA27 /* Faq.m */; };
+		0B65AB58172D161E0033EA27 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B65AB57172D161E0033EA27 /* Image.m */; };
+		0B65AB5A172D16E80033EA27 /* image03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B65AB59172D16E80033EA27 /* image03.png */; };
 		DFEEB237172C9C20004285DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB236172C9C20004285DA /* UIKit.framework */; };
 		DFEEB239172C9C20004285DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB238172C9C20004285DA /* Foundation.framework */; };
 		DFEEB23B172C9C20004285DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEEB23A172C9C20004285DA /* CoreGraphics.framework */; };
@@ -38,13 +40,16 @@
 /* Begin PBXFileReference section */
 		0B65AB39172CAF490033EA27 /* Trivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trivia.h; sourceTree = "<group>"; };
 		0B65AB3A172CAF490033EA27 /* Trivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trivia.m; sourceTree = "<group>"; };
-		0B65AB3C172CAF8E0033EA27 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		0B65AB3D172CAF8E0033EA27 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		0B65AB3F172CAFA00033EA27 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
 		0B65AB40172CAFA00033EA27 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
 		0B65AB42172CB8780033EA27 /* image02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image02.png; sourceTree = "<group>"; };
 		0B65AB44172CB8890033EA27 /* image01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image01.png; sourceTree = "<group>"; };
 		0B65AB46172CC2450033EA27 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		0B65AB53172D16100033EA27 /* Faq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Faq.h; path = ../Faq.h; sourceTree = "<group>"; };
+		0B65AB54172D16100033EA27 /* Faq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Faq.m; path = ../Faq.m; sourceTree = "<group>"; };
+		0B65AB56172D161E0033EA27 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		0B65AB57172D161E0033EA27 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		0B65AB59172D16E80033EA27 /* image03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image03.png; sourceTree = "<group>"; };
 		DFEEB233172C9C20004285DA /* Spendiza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendiza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEB236172C9C20004285DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFEEB238172C9C20004285DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				DFEEB25A172C9C3F004285DA /* Storyboard.storyboard */,
+				0B65AB53172D16100033EA27 /* Faq.h */,
+				0B65AB54172D16100033EA27 /* Faq.m */,
 				DFEEB26E172CA09B004285DA /* findTheMistakeVC.h */,
 				DFEEB26F172CA09B004285DA /* findTheMistakeVC.m */,
 				DFEEB26B172CA07B004285DA /* triviaTVC.h */,
@@ -133,10 +140,10 @@
 				DFEEB247172C9C20004285DA /* AppDelegate.h */,
 				DFEEB248172C9C20004285DA /* AppDelegate.m */,
 				DFEEB250172C9C20004285DA /* Spendiza.xcdatamodeld */,
+				0B65AB56172D161E0033EA27 /* Image.h */,
+				0B65AB57172D161E0033EA27 /* Image.m */,
 				0B65AB3F172CAFA00033EA27 /* Facts.h */,
 				0B65AB40172CAFA00033EA27 /* Facts.m */,
-				0B65AB3C172CAF8E0033EA27 /* Image.h */,
-				0B65AB3D172CAF8E0033EA27 /* Image.m */,
 				0B65AB39172CAF490033EA27 /* Trivia.h */,
 				0B65AB3A172CAF490033EA27 /* Trivia.m */,
 				DFEEB23F172C9C20004285DA /* Supporting Files */,
@@ -147,6 +154,7 @@
 		DFEEB23F172C9C20004285DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B65AB59172D16E80033EA27 /* image03.png */,
 				DFEEB281172D1180004285DA /* NoButton.png */,
 				DFEEB27F172D1175004285DA /* YesButton.png */,
 				DFEEB27D172CFD87004285DA /* visa.png */,
@@ -229,6 +237,7 @@
 				DFEEB27E172CFD87004285DA /* visa.png in Resources */,
 				DFEEB280172D1175004285DA /* YesButton.png in Resources */,
 				DFEEB282172D1180004285DA /* NoButton.png in Resources */,
+				0B65AB5A172D16E80033EA27 /* image03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +254,10 @@
 				DFEEB26D172CA07B004285DA /* triviaTVC.m in Sources */,
 				DFEEB270172CA09B004285DA /* findTheMistakeVC.m in Sources */,
 				0B65AB3B172CAF490033EA27 /* Trivia.m in Sources */,
-				0B65AB3E172CAF8E0033EA27 /* Image.m in Sources */,
 				0B65AB41172CAFA10033EA27 /* Facts.m in Sources */,
 				DFEEB279172CDEEC004285DA /* educationTVC.m in Sources */,
+				0B65AB55172D16100033EA27 /* Faq.m in Sources */,
+				0B65AB58172D161E0033EA27 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

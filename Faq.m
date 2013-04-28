@@ -1,17 +1,17 @@
 //
-//  Image.m
+//  Faq.m
 //  Spendiza
 //
 //  Created by Robert Lavoie on 4/28/13.
 //  Copyright (c) 2013 Prateek Kukreja. All rights reserved.
 //
 
-#import "Image.h"
+#import "Faq.h"
 
 
-@implementation Image
+@implementation Faq
 
-@dynamic file;
-@dynamic right;
+@dynamic faqDescript;
+@dynamic faqLabel;
 
 @end

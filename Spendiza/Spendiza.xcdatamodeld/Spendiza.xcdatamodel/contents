@@ -4,13 +4,13 @@
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Faq" representedClassName="Faq" syncable="YES">
+        <attribute name="faqDescript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faqLabel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Image" representedClassName="Image" syncable="YES">
         <attribute name="file" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="right" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
     <entity name="Trivia" representedClassName="Trivia" syncable="YES">
         <attribute name="correct" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
@@ -24,7 +24,8 @@
     </entity>
     <elements>
         <element name="Facts" positionX="160" positionY="192" width="128" height="75"/>
-        <element name="Image" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="Image" positionX="160" positionY="192" width="128" height="75"/>
         <element name="Trivia" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="Faq" positionX="160" positionY="192" width="128" height="75"/>
     </elements>
 </model>
