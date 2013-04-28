@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
    // if ([self managedObjectContext] == nil)
-   // [self create];
+   [self create];
     return YES;
 }
 
@@ -187,9 +187,9 @@
     trivia3.second = @"Cancel inactive accounts";
     trivia3.third = @"Let me borrow your credit card";
     trivia3.fourth = @"Change Passwords Regularly";
-    NSNumber *ans3 = [[NSNumber alloc]initWithInt:3];
+    NSNumber *ans3 = [[NSNumber alloc]initWithInt:2];
     trivia3.correct = ans3;
-    trivia3.expl = @"Changing passwords, particularly for banking and other financial sites will help protect you from fraud.";
+    trivia3.expl = @"It might be convenient for me to have your credit card, but it really is something that you should keep for yourself.";
     
     //Image Entity
     Image *image = [NSEntityDescription insertNewObjectForEntityForName:@"Image" inManagedObjectContext:context];
