@@ -143,7 +143,7 @@
             </objects>
             <point key="canvasLocation" x="592" y="2"/>
         </scene>
-        <!--Find The MistakeVC - Is This Right?-->
+        <!--Find The MistakeVC - Is this Right?-->
         <scene sceneID="8ro-pp-Bic">
             <objects>
                 <viewController id="Lw0-jc-HKB" customClass="findTheMistakeVC" sceneMemberID="viewController">
@@ -196,7 +196,7 @@
                             <constraint firstItem="BTk-Jt-geM" firstAttribute="bottom" secondItem="h5s-YK-ZJS" secondAttribute="bottom" type="default" id="ovV-4Y-hQY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Is This Right?" id="EOI-pS-PLM"/>
+                    <navigationItem key="navigationItem" title="Is this Right?" id="EOI-pS-PLM"/>
                     <connections>
                         <outlet property="mistakeImageView" destination="S7H-ee-hos" id="neN-Rc-Hg3"/>
                     </connections>
@@ -298,11 +298,11 @@
             </objects>
             <point key="canvasLocation" x="66" y="2"/>
         </scene>
-        <!--Navigation Controller - Find The Mistake-->
+        <!--Navigation Controller - Right or Wrong?-->
         <scene sceneID="Zei-yv-KZp">
             <objects>
                 <navigationController id="Cox-We-575" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Find The Mistake" id="39p-Td-x4x"/>
+                    <tabBarItem key="tabBarItem" title="Right or Wrong?" id="39p-Td-x4x"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NC2-1M-Cnt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
