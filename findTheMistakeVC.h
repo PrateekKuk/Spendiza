@@ -10,5 +10,7 @@
 
 @interface findTheMistakeVC : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *mistakeImageView;
+- (IBAction)noButton:(id)sender;
+- (IBAction)yesButton:(id)sender;
 
 @end
