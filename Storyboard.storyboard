@@ -16,9 +16,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="6cF-g7-swM" kind="relationship" relationship="viewControllers" id="jzy-ZT-czG"/>
                         <segue destination="o0L-T8-EK6" kind="relationship" relationship="viewControllers" id="D7d-Or-mfC"/>
                         <segue destination="Cox-We-575" kind="relationship" relationship="viewControllers" id="KCr-nd-V67"/>
-                        <segue destination="6cF-g7-swM" kind="relationship" relationship="viewControllers" id="jzy-ZT-czG"/>
                         <segue destination="c6Z-as-t9z" kind="relationship" relationship="viewControllers" id="7QB-m0-E4R"/>
                     </connections>
                 </tabBarController>
@@ -500,6 +500,54 @@
         <image name="YesButton.png" width="114" height="72"/>
         <image name="visa.png" width="176" height="164"/>
     </resources>
+    <classes>
+        <class className="FaqTVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FaqTVC.h"/>
+            <relationships>
+                <relationship kind="outlet" name="cell1" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="cell2" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="cell3" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="cell4" candidateClass="UITableViewCell"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="educationTVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/educationTVC.h"/>
+            <relationships>
+                <relationship kind="action" name="factButton:"/>
+                <relationship kind="outlet" name="factShow" candidateClass="UITableViewCell"/>
+            </relationships>
+        </class>
+        <class className="faqDetailsTVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/faqDetailsTVC.h"/>
+            <relationships>
+                <relationship kind="outlet" name="faqDetail" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="faqlabel" candidateClass="UITableViewCell"/>
+            </relationships>
+        </class>
+        <class className="findTheMistakeVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/findTheMistakeVC.h"/>
+            <relationships>
+                <relationship kind="action" name="noButton:"/>
+                <relationship kind="action" name="yesButton:"/>
+                <relationship kind="outlet" name="mistakeImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="triviaTVC" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/triviaTVC.h"/>
+            <relationships>
+                <relationship kind="action" name="Pass:"/>
+                <relationship kind="outlet" name="answer1" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="answer2" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="answer3" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="answer4" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="question" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="triviaTable" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
